@@ -25,3 +25,5 @@ async function logFiles(pathToFolder) {
       console.log(error.message);
    }
 };
+
+logFiles(pathToFolder);
